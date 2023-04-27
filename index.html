@@ -1,41 +1,68 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Mijn eerste website</title>
+	<title>Login Screen</title>
+	<style>
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		input[type="text"], input[type="password"] {
+			margin: 10px 0;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+		}
+		input[type="submit"] {
+			margin: 10px 0;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			background-color: #4CAF50;
+			color: white;
+			cursor: pointer;
+			box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+		}
+	</style>
 </head>
 <body>
-	<a href="https://chat.openai.com/?model=text-davinci-002-render">chat with de both</a>
-	
-	<header>
-		<h1>Welkom op mijn website</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Over mij</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section>
-			<h2>Over mij</h2>
-			<p>Ik ben een webdeveloper en ik hou van het bouwen van websites.</p>
-		</section>
-		<section>
-			<h2>Contact</h2>
-			<form>
-				<label for="naam">Naam:</label>
-				<input type="text" id="naam" name="naam">
-				<label for="email">E-mail:</label>
-				<input type="email" id="email" name="email">
-				<label for="bericht">Bericht:</label>
-				<textarea id="bericht" name="bericht"></textarea>
-				<input type="submit" value="Verzenden">
-			</form>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2023 Mijn eerste website</p>
-	</footer>
+	<h1>Login</h1>
+	<form action="login.php" method="post">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username">
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password">
+		<input type="submit" value="Login">
+	</form>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dice Game</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		h1 {
+			margin-top: 0;
+		}
+		.button {
+			margin-top: 10px;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			background-color: #4CAF50;
+			color: white;
+			cursor: pointer;
+			box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	
