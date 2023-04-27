@@ -1,19 +1,40 @@
 <!DOCTYPE html>
-<html lang="nl">
-
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Training sessie DBH</title>
-	<link rel="stylesheet" href="main.css">
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-
+	<title>Mijn eerste website</title>
 </head>
-
 <body>
-	<h1>Welkom op de website!</h1>
-	<img src="https://picsum.photos/600/400" alt="Een afbeelding van een placeholder">
-	<p>Dit is een voorbeeld van een eenvoudige HTML-pagina met CSS-styling. Met HTML kun je de structuur 
-		van een webpagina definiëren en met CSS kun je de stijl en lay-out ervan bepalen. Door deze twee 
-		talen te combineren, kun je mooie en functionele websites maken!</p>
+	
+	<header>
+		<h1>Welkom op mijn website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Over mij</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Over mij</h2>
+			<p>Ik ben een webdeveloper en ik hou van het bouwen van websites.</p>
+		</section>
+		<section>
+			<h2>Contact</h2>
+			<form>
+				<label for="naam">Naam:</label>
+				<input type="text" id="naam" name="naam">
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email">
+				<label for="bericht">Bericht:</label>
+				<textarea id="bericht" name="bericht"></textarea>
+				<input type="submit" value="Verzenden">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Mijn eerste website</p>
+	</footer>
 </body>
 </html>
