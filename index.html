@@ -1,68 +1,431 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl" data-color1="#7f7f7f" data-color2="#dc0000" style="--font-family: opensans-light; --color-1: #7f7f7f; --color-2:#dc0000;">
 <head>
-	<title>Login Screen</title>
-	<style>
-		form {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
-		input[type="text"], input[type="password"] {
-			margin: 10px 0;
-			padding: 10px;
-			border-radius: 5px;
-			border: none;
-			box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-		}
-		input[type="submit"] {
-			margin: 10px 0;
-			padding: 10px;
-			border-radius: 5px;
-			border: none;
-			background-color: #4CAF50;
-			color: white;
-			cursor: pointer;
-			box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-		}
-	</style>
-</head>
-<body>
-	<h1>Login</h1>
-	<form action="login.php" method="post">
-		<label for="username">Username:</label>
-		<input type="text" id="username" name="username">
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password">
-		<input type="submit" value="Login">
-	</form>
+    <title>Multitec</title>    
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content=""/>
+    <meta id="description" name="description" content="Hier komt uw meta description."/>
+    <meta name="format-detection" content="telephone=no">
+            <link rel="canonical" href="http://www.multitec.be"/>
+            <meta property="og:locale" content="nl_NL"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Multitec"/>
+    <meta property="og:url" content="http://www.multitec.be"/>
+    <meta property="og:title" content="Multitec"/>
+    <meta property="og:description" content="Hier komt uw meta description."/>
+    <meta property="og:image" content="https://lh3.googleusercontent.com/YwWUGEOhjegqHsq5KGkkDvZv-JMbZHMhaiX2o9L0WpDuKRHUpaW7wXbB_QNGthf2C7hprCxgyAXnMubKhnOhmnI8=l80-w1500-e365"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="627"/>
+                    <link property="icon" class="favicon" rel="icon" href="https://lh3.googleusercontent.com/xjmqGMO8YfqhrZA_svr_JGUy1mzZlR-n4ywwcd3nSLwtV6A5_EeyzFKvgCPZI1rqch-kQXDiv2s3wiDxzkTuuA=l80-w450-e365" type="image/x-icon">
+            <link rel="preload" href="/css/style.min.css?1680865910" as="style">
+    <link property='stylesheet' rel="stylesheet" href="/css/style.min.css?1680865910">
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104891429-46"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                gtag('config', 'UA-104891429-46', {'page_path': location.pathname + location.search + location.hash});
+                    </script>
+        <meta name="theme-color" content="#7f7f7f"/>
+                </head>
+<body data-riodejaneiro_header="default"  >
+<div id="preloader" class="preloader">
+    <span>
+        <span id="preloader-1"></span>
+        <span id="preloader-2"></span>
+    </span>
+</div>
+<div id="content">
+        <div id="top">
+        <div id="top-bgs" class=" curve bottom-curve">
+            <div id="top-bgs-i">
+                <div id="top-bg" class="background_image" data-responsive data-src="https://lh3.googleusercontent.com/YwWUGEOhjegqHsq5KGkkDvZv-JMbZHMhaiX2o9L0WpDuKRHUpaW7wXbB_QNGthf2C7hprCxgyAXnMubKhnOhmnI8=l80-w1500-e365">
+                </div>
+                <div id="top-o"></div>
+            </div>
+        </div>
+        <div class="particles" id="dots"></div>
+        <div id="header" class="full">
+    <div id="header-wrapper" class="w">
+        <div id="logo">
+            <a title="Multitec" href="https://www.multitec.be">
+                                    <img alt="Multitec" src="https://lh3.googleusercontent.com/MZxUiMepnrhfPSTJIvcNOSxqsqNaZBKANCuv5T66vOS19AJa_t6AWEBk2m0_3v9c7AfBQwxnD8A4_fUOO3CQYmxb=l80-w450-e365"/>
+                            </a>
+        </div>
+                    <div id="phone-wrapper" data-open="0">
+                <div id="phone-wrapper-inner">
+                    <div id="phone-wrapper-content">
+                                                    <div id="menu">
+                                                                                                                                            <a class="menu-tekst  " title="About us" href="/about-us" ><span class="nav__link">About us</span></a>
+                                                                            <a class="menu-tekst  " title="Expertises" href="/expertises" ><span class="nav__link">Expertises</span></a>
+                                                                            <a class="menu-tekst  " title="Referenties" href="/referenties" ><span class="nav__link">Referenties</span></a>
+                                                                            <a class="menu-tekst  " title="Contact" href="/form/contact" ><span class="nav__link">Contact</span></a>
+                                                                            <a class="menu-tekst  " title="Reviews" href="/reviews" ><span class="nav__link">Reviews</span></a>
+                                                                                                </div>
+                                                                                                                            <div id="search_form_w"  class="dark_bg" >
+            <form method="GET" action="https://www.multitec.be/search" accept-charset="UTF-8" class="search_form">
+            <input placeholder="Zoeken" class="search_form_input" name="keyword" type="text" value="">
+            <button class="search_form_btn"><span></span></button>
+            </form>
+        </div>
+                                                </div>
+                </div>
+                <div id="close-menu" class="material-icons">close</div>
+            </div>
+            <div id="open-menu" class="material-icons" data-open="0">menu</div>
+            </div>
+    <div id="header-b"></div>
+</div>
+        <div id="top-t">
+            <h2 class="slogan"><span class="titel-font">Multitec, bouwen op kwaliteit.</span></h2>
+            <div id="top-cta-w">
+                <div class="top-cta-w-p">
+                    <h1 class="cta_contact_title">Interesse in onze diensten?</h1>
+                </div>
+                <div class="top-cta-w-p">
+                                            <a title="Vrijblijvende offerte!"
+                           class="button" href="/form/contact">
+                            <span>Vrijblijvende offerte!</span>
+                            <span class="icon ion-ios-arrow-thin-right"></span>
+                        </a>
+                                    </div>
+            </div>
+            <div id="top-scroll">
+                <div class="icon scroll ion-ios-arrow-thin-down"  data-scrollto="i-news" ></div>
+            </div>
+        </div>
+    </div>
+            <div id="i-news">
+            <div class="wrapper">
+                                    <div class="one-third">
+                        <a title="Elektriciteit"
+                           href="/expertises/elektriciteit"
+                           class="i-newsitem  brdr   npt ">
+                            <h2>
+                                Elektriciteit
+                            </h2>
+                            <div class="n-arrow ion-ios-arrow-thin-right"></div>
+                        </a>
+                    </div>
+                                    <div class="one-third">
+                        <a title="Verwarming"
+                           href="/expertises/verwarming"
+                           class="i-newsitem  brdr  ">
+                            <h2>
+                                Verwarming
+                            </h2>
+                            <div class="n-arrow ion-ios-arrow-thin-right"></div>
+                        </a>
+                    </div>
+                                    <div class="one-third">
+                        <a title="Sanitair"
+                           href="/expertises/sanitair"
+                           class="i-newsitem   npt ">
+                            <h2>
+                                Sanitair
+                            </h2>
+                            <div class="n-arrow ion-ios-arrow-thin-right"></div>
+                        </a>
+                    </div>
+                            </div>
+        </div>
+        <div id="i-text">
+        <div class="w">
+            <div class="home_description"><p style="text-align: justify;">Welkom bij Multitec, uw specialist in elektriciteit, verwarming en sanitair. Met de juiste expertise en technische knowhow zetten wij ons vakmanschap in voor elk renovatie- en nieuwbouwproject in de ruime regio rond Leuven, Aarschot, Tienen, Keerbergen en Overijse.
+
+We kunnen rekenen op een trouwe en uitgebreide klantenportefeuille waaronder particulieren, kmo’s, bedrijven, projectontwikkelaars, immokantoren en syndicussen. 
+
+Multitec schuift mee aan tafel voor professioneel advies en installeert duurzame en kwaliteitsvolle materialen met de puntjes op de i. Een spoedopdracht of een dringende herstelling? Wij zijn al onderweg!</p></div>
+                                        <div id="text-scroll">
+                    <div class="icon scroll ion-ios-arrow-thin-down b" data-scrollto="i-vidgal"></div>
+                </div>
+                    </div>
+    </div>
+            <div class="full" id="i-vidgal">
+            <div class="darkblue abs curve"></div>
+            <div class="wrapper" id="i-blue">
+                                                                                                    <div class="full" id="i-pillars">
+                        <div class="team_pillars_category">
+                            <div class="pillars__title__wrapper"><h2 class="pillars__title "><span
+                                class=" custom_font ">Wat wilt u zeker weten?</span></h2>
+                </div>            <div id="pillars">
+                                    <div class="pillar">
+                        <div class="pillar_top">
+                                                            <div class="pillar_icon">
+                                    <i class="material-icons icon">fast_forward</i>
+                                </div>
+                                                        <div class="pillar_content">
+                                <h2 class="pillar_title"><span class="titel-font">Expertises</span>
+                                </h2>
+                                                                    <p class="pillar_txt">Hieronder vindt u al onze expertises terug!</p>
+                                                            </div>
+                        </div>
+                        <div class="pillar_btn_w">
+                                                            <a  class="pillar_btn" href="/expertises"
+                                   title="Expertises"><span>Meer info!</span></a>
+                                                    </div>
+                    </div>
+                            </div>
+        </div>
+                        </div>
+                                                                    <div id="i-g
+                    allery">
+                        <div class="gallery">
+                            <div class="one-fourth">
+                                <div class="gallery-t">
+                                    <div class="gallery-tc">
+                                        <div class="gallery-i">
+                                            <h3 class="clr-label">Referenties</h3>
+                                            <h2>
+                                                <span class="titel-font">Project Heverlee</span>
+                                            </h2>
+                                                                                            <a title="Project Heverlee"
+                                                   href="/referenties/project-heverlee"
+                                                   class="button m db sm">
+                                                    <span>Meer foto's</span>
+                                                    <span class="icon ion-ios-arrow-thin-right"></span>
+                                                </a>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                            <a class="one-fourth limg" data-fancybox="gallery" data-caption="Project Heverlee" data-thumb="https://lh3.googleusercontent.com/baFEUubpjM2huegYzjA7NfB_3d_N23b7PQSCAJFN0Du6T8-yFLnXxGuouvZDEYeuE7kOgb-_HQvnyqQyd4xHcVM=l80-w450-e365" href="https://lh3.googleusercontent.com/baFEUubpjM2huegYzjA7NfB_3d_N23b7PQSCAJFN0Du6T8-yFLnXxGuouvZDEYeuE7kOgb-_HQvnyqQyd4xHcVM=l80-w1500-e365">
+                                    <div class="galerij-img background_image" data-responsive data-src="https://lh3.googleusercontent.com/baFEUubpjM2huegYzjA7NfB_3d_N23b7PQSCAJFN0Du6T8-yFLnXxGuouvZDEYeuE7kOgb-_HQvnyqQyd4xHcVM=l80-w450-e365"></div>
+                                    <div class="galerij-img-o ion-ios-photos-outline"></div>
+                                </a>
+                                                            <a class="one-fourth limg" data-fancybox="gallery" data-caption="Project Heverlee" data-thumb="https://lh3.googleusercontent.com/khb7kiwOvha33t3obnP6f9esPg_-g29S8I65-tTFm_kOi6aS-GnFBAqTY5uESS-TCs_q4o_EmXoOKwwM_iqK1g=l80-w450-e365" href="https://lh3.googleusercontent.com/khb7kiwOvha33t3obnP6f9esPg_-g29S8I65-tTFm_kOi6aS-GnFBAqTY5uESS-TCs_q4o_EmXoOKwwM_iqK1g=l80-w1500-e365">
+                                    <div class="galerij-img background_image" data-responsive data-src="https://lh3.googleusercontent.com/khb7kiwOvha33t3obnP6f9esPg_-g29S8I65-tTFm_kOi6aS-GnFBAqTY5uESS-TCs_q4o_EmXoOKwwM_iqK1g=l80-w450-e365"></div>
+                                    <div class="galerij-img-o ion-ios-photos-outline"></div>
+                                </a>
+                                                            <a class="one-fourth limg" data-fancybox="gallery" data-caption="Project Heverlee" data-thumb="https://lh3.googleusercontent.com/IIZSOvmAyIUE5DZuh3F4ZufeOfElgZb5Z9OoSMrZsLDT9Bd2n2JIZyoR0eiWDvzUYqzb34Jt4lmecY6x6GFsuZs=l80-w450-e365" href="https://lh3.googleusercontent.com/IIZSOvmAyIUE5DZuh3F4ZufeOfElgZb5Z9OoSMrZsLDT9Bd2n2JIZyoR0eiWDvzUYqzb34Jt4lmecY6x6GFsuZs=l80-w1500-e365">
+                                    <div class="galerij-img background_image" data-responsive data-src="https://lh3.googleusercontent.com/IIZSOvmAyIUE5DZuh3F4ZufeOfElgZb5Z9OoSMrZsLDT9Bd2n2JIZyoR0eiWDvzUYqzb34Jt4lmecY6x6GFsuZs=l80-w450-e365"></div>
+                                    <div class="galerij-img-o ion-ios-photos-outline"></div>
+                                </a>
+                                                            <a class="one-fourth limg" data-fancybox="gallery" data-caption="Project Heverlee" data-thumb="https://lh3.googleusercontent.com/bMnZlT837dgrjO6y-uRxJE9p96NBW5aeOis4tS7cE3sSMrXzmDL5cjksZNYVqyr4DNJg7QE8w4Ubd0gfaqOWCSE=l80-w450-e365" href="https://lh3.googleusercontent.com/bMnZlT837dgrjO6y-uRxJE9p96NBW5aeOis4tS7cE3sSMrXzmDL5cjksZNYVqyr4DNJg7QE8w4Ubd0gfaqOWCSE=l80-w1500-e365">
+                                    <div class="galerij-img background_image" data-responsive data-src="https://lh3.googleusercontent.com/bMnZlT837dgrjO6y-uRxJE9p96NBW5aeOis4tS7cE3sSMrXzmDL5cjksZNYVqyr4DNJg7QE8w4Ubd0gfaqOWCSE=l80-w450-e365"></div>
+                                    <div class="galerij-img-o ion-ios-photos-outline"></div>
+                                </a>
+                                                            <a class="one-fourth limg" data-fancybox="gallery" data-caption="Project Heverlee" data-thumb="https://lh3.googleusercontent.com/pGcwHr7Wi-M8RPb4eSjPXsQnTbEXa9PYxQVzOSRghgSV_Q4hCdYeNy2lWSGH6alo0Ne0J5fotWFB_XTnZnU9cyEV=l80-w450-e365" href="https://lh3.googleusercontent.com/pGcwHr7Wi-M8RPb4eSjPXsQnTbEXa9PYxQVzOSRghgSV_Q4hCdYeNy2lWSGH6alo0Ne0J5fotWFB_XTnZnU9cyEV=l80-w1500-e365">
+                                    <div class="galerij-img background_image" data-responsive data-src="https://lh3.googleusercontent.com/pGcwHr7Wi-M8RPb4eSjPXsQnTbEXa9PYxQVzOSRghgSV_Q4hCdYeNy2lWSGH6alo0Ne0J5fotWFB_XTnZnU9cyEV=l80-w450-e365"></div>
+                                    <div class="galerij-img-o ion-ios-photos-outline"></div>
+                                </a>
+                                                            <a class="one-fourth limg" data-fancybox="gallery" data-caption="Project Heverlee" data-thumb="https://lh3.googleusercontent.com/mnp9O8UkJ4RcFXVwiK9I_CWSKvrvtRr4Qis0NixgBjaZIBLUUXX8YRcPO1ZGKdbgqVTkUTABjK_CdnMd40aDPw=l80-w450-e365" href="https://lh3.googleusercontent.com/mnp9O8UkJ4RcFXVwiK9I_CWSKvrvtRr4Qis0NixgBjaZIBLUUXX8YRcPO1ZGKdbgqVTkUTABjK_CdnMd40aDPw=l80-w1500-e365">
+                                    <div class="galerij-img background_image" data-responsive data-src="https://lh3.googleusercontent.com/mnp9O8UkJ4RcFXVwiK9I_CWSKvrvtRr4Qis0NixgBjaZIBLUUXX8YRcPO1ZGKdbgqVTkUTABjK_CdnMd40aDPw=l80-w450-e365"></div>
+                                    <div class="galerij-img-o ion-ios-photos-outline"></div>
+                                </a>
+                                                            <a class="one-fourth limg" data-fancybox="gallery" data-caption="Project Heverlee" data-thumb="https://lh3.googleusercontent.com/W09x_ifiK9ybcytnO-WT-yyBLFvQ0qCMmumJvjHLQhKvgLbrKom57AFvqP-3J80B5sD60WXdp9yVfqhjUjiSGg=l80-w450-e365" href="https://lh3.googleusercontent.com/W09x_ifiK9ybcytnO-WT-yyBLFvQ0qCMmumJvjHLQhKvgLbrKom57AFvqP-3J80B5sD60WXdp9yVfqhjUjiSGg=l80-w1500-e365">
+                                    <div class="galerij-img background_image" data-responsive data-src="https://lh3.googleusercontent.com/W09x_ifiK9ybcytnO-WT-yyBLFvQ0qCMmumJvjHLQhKvgLbrKom57AFvqP-3J80B5sD60WXdp9yVfqhjUjiSGg=l80-w450-e365"></div>
+                                    <div class="galerij-img-o ion-ios-photos-outline"></div>
+                                </a>
+                                                    </div>
+                    </div>
+                                                                    <div id="quote-w" v-if="quotes.length > 0" data-part="quotes">
+                        <div id="quote">
+                            <div id="quote-bg"></div>
+                            <div v-if="rating != null && rating != 0" class="rating_stars">
+    <div v-for="index in rating" class="rating_star">
+        <i  class="material-icons">star</i>
+    </div>
+    <div v-for="index in 5 - rating" class="rating_star rating_star_grey">
+        <i class="material-icons">star</i>
+    </div>
+</div>
+                            <h2 id="quote-text"><span
+                                        class="titel-font">{{ quote_text }}</span>
+                            </h2>
+                            <div id="quote_person">
+                                <div v-if="picture" id="quote_img" class="background_image"
+                                     :data-src="picture"></div>
+                                <h3>{{ name }}</h3>
+                            </div>
+                            <a v-if="has_more_quotes" class="button sm" title="Lees meer"
+                               :href="link"><span>Lees meer</span></a>
+                        </div>
+                    </div>
+                                                                </div>
+        </div>
+    
+            <div class="full darkblue">
+        <div class="wrapper" id="footer">
+                            <div class="half">
+                    <div class="footer-half-i">
+                        <div id="nieuwsbrief-footer" data-part="newsletter">
+                            <div class="nieuwsbrief-footer-inner">
+                                <p><span class="titel-font">Schrijf je in voor onze nieuwsbrief</span>
+                                </p>
+                            </div>
+                            <span id="newsletter_message" class="newsletter_message_full" v-bind:class="{ newsletter_message_success: success }" v-if="newsletter_message != ''" v-cloak>{{ newsletter_message }}</span>
+                            <div class="half" v-if="!success">
+                                <div class="nieuwsbrief-footer-inner">
+                                    <input placeholder="Voornaam"
+                                           type="text" name="voornaamm" v-model="newsletter_first_name"/>
+                                </div>
+                            </div>
+                            <div class="half" v-if="!success">
+                                <div class="nieuwsbrief-footer-inner">
+                                    <input placeholder="Achternaam"
+                                           type="text" name="naamm" v-model="newsletter_last_name"/>
+                                </div>
+                            </div>
+                            <div class="half" v-if="!success">
+                                <div class="nieuwsbrief-footer-inner">
+                                    <input placeholder="E-mailadres"
+                                           type="text" name="emaill" v-model="newsletter_email"/>
+                                </div>
+                            </div>
+                            <div class="half" v-if="!success">
+                                <div class="nieuwsbrief-footer-inner">
+                                    <div id="submit-nieuwsbrief-footer" name="ingeschrevenn" class="button" v-on:click="subscribe">
+                                        <span>Schrijf in</span>
+                                        <span class="icon ion-ios-arrow-thin-right"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="newsletter_check" v-if="!success">
+        <input required type="checkbox" value="1" id="newsletter_privacy"   v-model="newsletter_privacy" name="newsletter_privacy">
+                <label for="newsletter_privacy" id="newsletter_check_label"> Ik ga akkoord met de <a target="_blank" href="https://www.multitec.be/privacy" title="Privacy policy">privacy policy</a>  </label>
+    </div>
+                        </div>
+                    </div>
+                </div>
+                        <div class="half">
+                <div class="footer-half-i">
+                    <div id="footer-cta">
+                        <h2 class="c">
+                            <span class="titel-font">Interesse in onze diensten?</span>
+                        </h2>
+                                                    <a title="Vrijblijvende offerte!"
+                               class="button" href="/form/contact">
+                                <span>Vrijblijvende offerte!</span>
+                                <span class="icon ion-ios-arrow-thin-right"></span>
+                            </a>
+                                                                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper" id="footer-top">
+            <div id="footer-top-i">
+                <p itemscope itemtype="https://schema.org/Organization">
+                                            <span><a target="_blank" rel="noopener" href="https://www.google.be/maps/place/Aarschotsesteenweg+231+Wilsele+(Leuven)+3012"
+                                 title="Bekijk de locatie op kaart"><span itemscope itemprop="address"
+                                                                                          itemtype="https://schema.org/PostalAddress">Aarschotsesteenweg 231 Wilsele (Leuven) 3012</span></a></span>
+                                                                <span><a href="mailto:info@multitec.be" itemprop="email">info@multitec.be</a></span>
+                                                                <span>T <a href="tel:0472/ 22 63 84" title="Tel Multitec"><span
+                                        itemprop="telephone">0472/ 22 63 84</span></a></span>
+                                                                                                                                                                    <span><a href="https://www.multitec.be/privacy">Privacy</a></span>
+                                                                                    <span><a href="https://www.multitec.be/sitemap">Sitemap</a></span>
+                                    </p>
+                            </div>
+        </div>
+    </div>
+            <div id="agency_logos_wrapper" class="">
+        <div id="agency_logos">
+            <a  href="https://www.webhero.be/website-laten-maken?utm_source=multitec.be&utm_medium=website&utm_content=website-by" title="Website laten maken"  target="_blank" class="agency_logos_text "> Website by </a>
+            <a href="https://www.webhero.be?utm_source=multitec.be&utm_medium=website&utm_content=logo" target="_blank" rel="noopener" title="Webhero" class="agency_logo_webhero "><span></span></a>
+        </div>
+    </div>
+</div>
+<div class="custom__popup__wrapper" data-part="popup" v-if="popup_title != '' || popup_text != '' ">
+    <div class="custom__popup fr-view-popup text_styles">
+        <div class="custom__popup__box bg_color_1">
+            <div class="fr-view">
+                <h3 class="custom__popup__title"><span class="custom_font">{{ popup_title }}</span></h3>
+                <div class="custom__popup__text" v-html="popup_text"></div>
+                <p><a title="Ga verder" href="#"
+                      class="custom__popup__close__text" @click="closePopup">{{ popup_close_text }}</a></p>
+            </div>
+            <a title="Ga verder" @click="closePopup" href="#" class="custom__popup__close">x</a>
+        </div>
+    </div>
+</div>
+<script>
+    var config = {
+        'locale': 'nl',
+        'domain': 'multitec.be',
+        'language_id': '1',
+        'baseurl': 'https://api.webhero.be',
+                    'quotes': JSON.parse("[{\"quote_text\":\"De samenwerking met Multitec verliep zeer vlot. We konden rekenen op hun klantvriendelijkheid en vakkennis om samen met ons de plannen te bespreken. Ook de plaatsing en afwerking van de elektrische en sanitaire installatie was meteen perfect volgens onze overeenkomst.\",\"link\":\"\\\/quote\",\"name\":\"Familie Den Ouden uit Heverlee\",\"rating\":null,\"picture\":null},{\"quote_text\":\"Bij Multitec vonden we de juiste professionele mensen die we nodig hadden om ons renovatieproject tot een goed einde te brengen, van A tot Z. Het mag gezegd worden: aan te raden vakmannen, met persoonlijke touch, zeer betrokken.\",\"link\":\"\\\/quote\",\"name\":\"Familie Langers uit Kessel-Lo\",\"rating\":null,\"picture\":null},{\"quote_text\":\"Alvast dank voor de geslaagde plaatsing van het sanitair en verwarming! De waterverzachter wordt door jullie elk jaar goed onderhouden, mijn vrouw is daarbij zeer tevreden.\",\"link\":\"\\\/quote\",\"name\":\"Familie Coppejans uit Holsbeek\",\"rating\":null,\"picture\":null},{\"quote_text\":\"Multitec? In \\u00e9\\u00e9n woord 'klasse'! Mensen die van aanpakken weten. Mijn cv is professioneel ge\\u00efnstalleerd met de nodige deskundige uitleg. Proper afgewerkt en goed over nagedacht. Aangename mensen! Wij zijn zeer tevreden, een aanrader!\",\"link\":\"\\\/quote\",\"name\":\"Mevrouw Wuyts uit Wezemaal\",\"rating\":null,\"picture\":null}]"),
+            'has_more_quotes':  '1' ,
+                    'error_default': 'Oeps, er is iets foutgelopen. Probeer later opnieuw.',
+            'error_no_items': 'Er zijn geen items gevonden.',
+                                    };
+</script>
+<script src="https://cdn.webhero.be/js/jquery.min.js"></script>
+<script src="https://cdn.webhero.be/js/scripts/es6-promise.min.js"></script>
+<script src="https://cdn.webhero.be/js/scripts/es6-promise.auto.min.js"></script>
+<script src="https://cdn.webhero.be/js/vue.min.js"></script>
+<script src="https://cdn.webhero.be/js/scripts/axios.min.js"></script>                <link rel="stylesheet" href="https://cdn.webhero.be/css/jquery.fancybox.min.css" />
+<script src="https://cdn.webhero.be/js/scripts/jquery.fancybox.min.js"></script>
+    <script>
+        if ($('[data-part="newsletter"]').length > 0) {
+            var newsletterAPI = new Vue({
+                el: '[data-part="newsletter"]',
+                data: {
+                    newsletter_first_name: '',
+                    newsletter_last_name: '',
+                    newsletter_privacy: '',
+                    newsletter_email: '',
+                    newsletter_message: '',
+                    success: false,
+                    processing: false
+                },
+                methods: {
+                    subscribe: function (event) {
+                        if (this.processing === true) {
+                            return;
+                        }
+                        this.processing = true;
+                        var body = {
+                            first_name: this.newsletter_first_name,
+                            last_name: this.newsletter_last_name,
+                            email_address: this.newsletter_email,
+                            newsletter_privacy: this.newsletter_privacy,
+                            domain: 'multitec.be',
+                            language_id: '1'
+                        };
+                        var uri = 'https://' + "api.webhero.be" + '/api/newsletterhandler';
+                        axios.post(uri, body).then(function (response) {
+                            newsletterAPI.success = true;
+                            newsletterAPI.newsletter_message = response.data.message;
+                            newsletterAPI.newsletter_first_name = '';
+                            newsletterAPI.newsletter_last_name = '';
+                            newsletterAPI.newsletter_email = '';
+                            newsletterAPI.newsletter_privacy = '';
+                            newsletterAPI.processing = false;
+                        }).catch(function (error) {
+                            newsletterAPI.success = false;
+                            newsletterAPI.processing = false;
+                            if (error.response.status == 422) {
+                                newsletterAPI.newsletter_message = Object.entries(error.response.data)[0][1][0];
+                            } else {
+                                newsletterAPI.newsletter_message = "Oeps, er is iets foutgelopen. Probeer later opnieuw.";
+                            }
+                        });
+                    }
+                }
+            });
+            if ($('[data-action="openNewsletter"]').length > 0) {
+                $('[data-action="openNewsletter"]').click(function (e) {
+                    e.returnValue = false;
+                    e.preventDefault();
+                    $('#nieuwsbrief-popup').slideDown(300);
+                });
+            }
+            if ($('[data-action="closeNewsletter"]').length > 0) {
+                $('[data-action="closeNewsletter"]').click(function (e) {
+                    e.returnValue = false;
+                    e.preventDefault();
+                    $('#nieuwsbrief-popup').slideUp(300);
+                });
+            }
+        }
+    </script>
+<script type="text/javascript" src="https://cdn.webhero.be/js/general.min.js"></script>
+<script type="text/javascript" src="https://cdn.webhero.be/templates/riodejaneiro/js/script.min.js?1680865910"></script>
+
+    <script src="https://cdn.webhero.be/js/api/quote.min.js"></script>
 </body>
 </html>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Dice Game</title>
-	<style>
-		.container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
-		h1 {
-			margin-top: 0;
-		}
-		.button {
-			margin-top: 10px;
-			padding: 10px;
-			border-radius: 5px;
-			border: none;
-			background-color: #4CAF50;
-			color: white;
-			cursor: pointer;
-			box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-		}
-	</style>
-</head>
-<body>
-	<div class="container">
-	
+
+
